@@ -98,7 +98,7 @@ header{
 @-webkit-keyframes logo_grow{
   /*Your code here.*/
   from {
-    width:250px;
+    width:25px;
     opacity: 0;
   }
   to {
@@ -145,18 +145,40 @@ header{
 
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
+@media (prefers-reduced-motion) {
 /*Your code here again.*/ 
-
-
+  #logo {
+    animation: none;
+  }
+}
 
 @media print { 
 
   /*Requirement 13*/
+  body {
+    background-image: none;
+  }
   /*Requirement 14*/
+  nav {
+    width: 100%;
+  }
   /*Requirement 15*/
+  .nav_links {
+    justify-content: space-around;
+  }
   /*Requirement 16*/
+  .price {
+    align-items: flex-end;
+  }
   /*Requirement 17*/
+  .package {
+    border: 2px solid #45ADAD;
+    flex-basis: 200px
+  }
   /*Requirement 18*/
+  #gallery, .gallery {
+    display: none;
+  }
  
 }
 
