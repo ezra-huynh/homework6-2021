@@ -145,7 +145,7 @@ header{
 
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
-@media (prefers-reduced-motion) {
+@media screen and (prefers-reduced-motion: reduce) {
 /*Your code here again.*/ 
   #logo {
     animation: none;
