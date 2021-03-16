@@ -110,7 +110,7 @@ header{
 @keyframes logo_grow{
   /*Your code here.*/
   from {
-    width:250px;
+    width:25px;
     opacity: 0;
   }
   to {
